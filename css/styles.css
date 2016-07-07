@@ -1,0 +1,71 @@
+body { text-align: center; margin-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; background-color: #ffffff; }
+#header { background-color: #ffffff; border-bottom: 1px solid #cccccc;}
+#header .logo { width: 100%; height: auto; max-width: 350px; margin: 30px 0; }
+#wrapper {width:100%; overflow: hidden; }
+#buttons ul { list-style:none; font-weight:bold; margin-bottom:10px; display: inline-block; width:100%; margin: 0; padding: 0; background-color: #404040; }
+#buttons ul li{ position:relative; }
+#buttons ul a{ display:block; height: 30px; line-height: 30px; text-decoration:none; font-weight: lighter; }
+#buttons ul a:hover{ text-decoration:none; }
+#buttons ul ul{ list-style:none; position:absolute; left:-9999px; top: 30px; }
+#buttons ul ul li{ float:none; }
+#buttons ul ul a{ white-space:nowrap; }
+#buttons li:hover ul{ left:0; }
+#buttons li:hover a{ }
+#buttons li:hover ul a{ color: #ffffff; background: #3a5991; }
+#buttons li ul li a:hover{ background:#adc0e4; color: #101010; text-decoration: none;}
+.sticky { position: fixed; top: 0; width: 100%; }
+#buttons a { width: 100%; height: 30px; line-height: 30px; text-align: center; font-family: "Arial"; font-size: 14px; text-decoration: none; background: #adc0e4; color: #ffffff; }
+#buttons a#left {width: 0%;}
+#buttons a#right {width: 100%;}
+#buttons a#right ul li a { width: 100%;}
+#buttons a.active { background:#3a5991; color: #ffffff; }
+#left {float: left; }
+#right {float: right; }
+h4 { color: #3a5991; font-family: "Arial"; font-size: 28px; margin: 0; padding: 70px 0 30px; font-weight: bold; }
+#landingpreviews { max-width: 1200px; margin: 30px  auto;}
+#landingpreviews .preview-box {
+
+		background-color:#ffffff;
+		padding:20px 0;
+		border: 1px solid #DEDEDE;
+		border-radius:2px;
+		-webkit-box-shadow: 2px 2px 17px 1px rgba(171,171,171,0.62);
+-moz-box-shadow: 2px 2px 17px 1px rgba(171,171,171,0.62);
+box-shadow: 2px 2px 17px 1px rgba(171,171,171,0.62);
+	}
+	#landingpreviews .preview-box:hover {
+		-webkit-box-shadow: 2px 2px 17px 1px rgba(82,81,82,1);
+-moz-box-shadow: 2px 2px 17px 1px rgba(82,81,82,1);
+box-shadow: 2px 2px 17px 1px rgba(82,81,82,1);
+border: 1px solid $c-darkGray;
+	}
+#landingpreviews img { width: 100%; height: auto; max-width: 500px; margin: 30px 0; border: solid 1px #e0e0e0; }
+#landingpreviews .left { float: left; width: 50%; }
+#landingpreviews .right { float: right;  width: 50%; }
+#landingpreviews .center { clear: both;  width: 50%; margin: 0 auto; }
+#situpreviews img { width: 100%; height: auto; max-width: 1600px; margin: 30px 0; border: solid 1px #e0e0e0; }
+#flatpreviews img { width: 100%; height: auto; max-width: 1600px; margin: 30px 0; border: solid 1px #e0e0e0; }
+#flatpreviews img.email { width: 100%; height: auto; max-width: 600px; margin: 30px 0; border: solid 1px #e0e0e0; }
+
+@media screen and (max-width:540px) {
+	#landingpreviews .left { float: none; width: 100%; }
+	#landingpreviews .right { float: none; width: 100%; }
+}
+
+.cta-button {
+	display: block;
+	background: #3d5b90;
+    padding: 10px 13px;
+    font-weight: bold;
+    font-size: 17px;
+    text-transform: none;
+    max-width:200px;
+    margin: 0 auto;
+    border: 2px solid #3d5b90;
+    color:#fff;
+	text-decoration: none;
+}
+.cta-button:hover{
+	background: #fff;
+	color:#3d5b90;
+}

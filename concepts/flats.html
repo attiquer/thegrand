@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+<link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Barcare Supreme Ltd  - Design Previews</title>
+<link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+<div id="header">
+	<a href="../"><img class="logo" src="../img/logo.png" width="260" /></a>
+</div>
+<div id="wrapper">
+	<div id="buttons">
+		<ul>
+			<li><a id="left" href="index.html">In Situ</a></li>
+			<li><a id="right" class="active" href="flats.html">Flat Designs</a>
+			<ul>
+				<li><a href="#1">Homepage</a></li>
+				<li><a href="#2">Product Landing Page (categories)</a></li>
+				<li><a href="#3">Product Details page </a></li>
+				
+				</ul></li>
+		</ul>
+	</div>
+	<div id="flatpreviews">
+		<div id="1">
+			<h4>Homepage</h4>
+			<img src="img/home.jpg" width="19200" />
+		</div>
+		<div id="2">
+			<h4>Product Landing Page (categories)</h4>
+			<img src="img/category_V2.jpg" width="1920" />
+		</div>
+		<div id="3">
+			<h4>Product Details page</h4>
+			<img src="img/product_V2.jpg" width="1920" />
+		</div>
+		</div>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src="../js/scroll.js"></script>
+<script type="text/javascript" src="../js/jquery.smooth-scroll.js"></script>
+<script>
+    $(document).ready(function() {
+      $('#buttons a').smoothScroll({
+      	speed: 2000
+      });
+    });
+</script>
+</body>
+</html>
